@@ -64,12 +64,7 @@ footer {
     justify-content: space-around;
 }
 
-.boton__nav {
-    border: 2px solid red;
-    border-radius: 15px;
-    padding: 5px 12px;
-    background-color: red;
-}
+
 
 /* Edicion del estilo de la barra de navegacion */
 .link__nav {
