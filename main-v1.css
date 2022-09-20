@@ -37,6 +37,14 @@ img {
 }
 
 
+
+footer {
+    background-color: #091f2f;
+    position: sticky;
+}
+
+
+
 /* Todos los titulos */
 .title__principal {
     text-align: center;
@@ -220,7 +228,6 @@ img {
 
 
 /* Galeria */
-
 .title__galeria {
     text-align: center;
     font-size: 2rem;
@@ -250,14 +257,10 @@ img {
 }
 
 
-.main__galeria {
-    height: 95vh;
-}
-
-
 .galery__img__contenedor {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .animal__img--galery {
@@ -269,6 +272,11 @@ img {
     padding: 4px 6px;
     float: left;
     width: 25%;
+}
+
+.galery__vid {
+    display: flex;
+    justify-content: center;
 }
 
 /* Nuestros Animales */
@@ -410,10 +418,6 @@ img {
 }
 
 /* Footer */
-
-footer {
-    background-color: #091f2f;
-}
 
 
 
