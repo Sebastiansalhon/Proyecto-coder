@@ -1,0 +1,419 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: orange;
+}
+
+header {
+    background-color: #091f2f;
+    position: sticky;
+    top: 0px;
+}
+
+h1 {
+    text-align: center;
+    margin: 1px;
+    background-color: #091f2f;
+    text-decoration: underline;
+
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+span {
+    color: black
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+/* Todos los titulos */
+.title__principal {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 2rem;
+    color: rgba(219, 156, 74, 0.788);
+}
+
+
+/* Barra de navegacion */
+.menu {
+    text-align: center;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.boton__nav {
+    border: 2px solid red;
+    border-radius: 15px;
+    padding: 5px 12px;
+    background-color: red;
+}
+
+/* Edicion del estilo de la barra de navegacion */
+.link__nav {
+    text-decoration: none;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.link__nav a:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Index */
+.flexbox__about__us {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: repeat(3, 30%);
+    grid-template-areas:
+        "titulo  imagen"
+        "aboutus imagen"
+        "invitacion imagen"
+    ;
+
+}
+
+.div__center {
+    background-image: url(./assets/fondo-2.jpg);
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title__center {
+    font-family: sans-serif;
+    color: orange;
+    font-size: 3.2rem;
+}
+
+.about__us__p {
+    display: flex;
+    width: 30vw;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    grid-area: aboutus;
+    justify-self: center;
+
+
+}
+
+.invitacion {
+    padding: 20px;
+    width: 30vw;
+    display: flex;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    grid-area: invitacion;
+    justify-self: center;
+}
+
+.about__us {
+    display: flex;
+    justify-content: start;
+    color: #0f0f0cec;
+    padding-left: 120px;
+    grid-area: titulo;
+    justify-self: center;
+}
+
+.about__us__title {
+    font-size: 2rem;
+    font-family: sans-serif;
+    text-decoration: underline;
+}
+
+.about__us__img {
+    grid-area: imagen;
+    justify-self: center;
+    align-self: center;
+}
+
+
+/* Tarjetas de animales */
+
+.body__animales {
+    background-color: rgba(113, 112, 112, 0.526);
+}
+
+.main__animalitos {
+    height: 95vh;
+}
+
+.div__contenedor {
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    grid-template-rows: repeat(2, 50%);
+}
+
+.div__animal {
+    padding: 10px;
+}
+
+
+
+
+.animal {
+    border: 2px solid black;
+    border-radius: 40px;
+    display: flex;
+}
+
+.animal__tarjeta {
+    width: auto;
+    height: 300px;
+    background-color: white;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.animal__img {
+    object-fit: contain;
+    padding: 20px;
+}
+
+
+.animal__name {
+    text-align: center;
+}
+
+.animal__description {
+    text-align: center;
+}
+
+
+
+.div__principal {
+    display: flex;
+    margin-left: 10rem
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Galeria */
+
+.title__galeria {
+    text-align: center;
+    font-size: 2rem;
+    font-family: sans-serif;
+    color: orange;
+    text-decoration: underline;
+}
+
+.p__galeria {
+    text-align: center;
+    font-size: 1.6rem;
+
+}
+
+.animal__img--galery {
+    border: 1px solid black;
+}
+
+.animal__img--galery:hover {
+    border: 4px solid red;
+
+}
+
+
+.span__galeria {
+    background-color: red;
+}
+
+
+.main__galeria {
+    height: 95vh;
+}
+
+
+.galery__img__contenedor {
+    display: flex;
+    justify-content: center;
+}
+
+.animal__img--galery {
+    height: 200px;
+    width: 400px;
+}
+
+.responsive {
+    padding: 4px 6px;
+    float: left;
+    width: 25%;
+}
+
+/* Nuestros Animales */
+
+.title__animales {
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: sans-serif;
+    color: rgb(159, 104, 0);
+    text-decoration: underline;
+}
+
+
+.contenedor {
+    display: flex;
+}
+
+
+
+
+.animal-name {
+    text-align: center;
+}
+
+
+.animal-description {
+    text-align: center;
+}
+
+
+
+
+
+
+/* Adopcion */
+.body__adopcion {
+    background-color: rgb(240, 238, 235);
+}
+
+.main__adopcion {
+    height: 95vh;
+}
+
+.title__adopt {
+    text-align: center;
+    font-size: 2rem;
+    font-family: sans-serif;
+    color: orange;
+    text-decoration: underline
+}
+
+.adopcion {
+    display: inline-block;
+    justify-content: center;
+    border: 3px solid red;
+    padding: 0px 7px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.adopt__cont {
+    display: flex;
+    justify-content: center;
+}
+
+.input__card {
+    text-align: end;
+    padding: 15px 0px;
+}
+
+
+.input__card--gender {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+
+}
+
+.txt__adopcion {
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+
+}
+
+.adop__btn {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.btn__submit {
+    font-size: 1rem;
+    font-family: sans-serif;
+}
+
+.btn__reset {
+    font-size: 1rem;
+    font-family: sans-serif;
+    margin-left: 0.5rem;
+}
+
+/* Contacto */
+
+
+.body__contacto {
+    background-color: rgb(240, 238, 235);
+}
+
+.main__contacto {
+    height: 95vh;
+}
+
+.title__contacto {
+    text-align: center;
+    font-size: 2rem;
+    font-family: sans-serif;
+    text-decoration: underline;
+}
+
+
+.p__contacto {
+    text-align: center;
+    font-size: 1.4rem;
+    font-family: sans-serif;
+
+}
+
+.contacto__card {
+    margin: 5%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.text__area__contacto {
+    width: 30vw;
+    height: 30vh;
+}
+
+/* Footer */
+
+footer {
+    background-color: #091f2f;
+}
+
+
+
