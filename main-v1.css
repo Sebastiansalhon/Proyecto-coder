@@ -373,8 +373,27 @@ color: red;
 }
 
 .btn__submit {
+    text-align: center;
     font-size: 1rem;
     font-family: sans-serif;
+    display: inline-block;
+    padding: 15px 25px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #ffa602;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.btn__submit:hover{
+background-color: #ab7004;
+}
+
+.btn__submit:active{
+background-color: #ab7004;
+box-shadow: 0 5px #666;
+transform: translateY(4px);
 }
 
 .btn__reset {
@@ -419,6 +438,12 @@ color: red;
 .text__area__contacto {
     width: 30vw;
     height: 30vh;
+}
+
+.btn__contacto {
+    display: flex;
+    justify-content: center;
+    padding: 15px 0px;
 }
 
 /* Footer */
