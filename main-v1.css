@@ -43,7 +43,16 @@ footer {
     position: sticky;
 }
 
+/* Keyframs */
+@keyframes adoption {
+    0% { background-color: white;}
+    50% { background-color: palegoldenrod;}
+    100% {background-color: white;}
+}
 
+@keyframes navegacion {
+    
+}
 
 /* Todos los titulos */
 .title__principal {
@@ -317,7 +326,9 @@ color: red;
 
 /* Adopcion */
 .body__adopcion {
-    background-color: rgb(240, 238, 235);
+    background-color: rgb(255, 255, 255);
+
+
 }
 
 .main__adopcion {
@@ -339,7 +350,12 @@ color: red;
     padding: 0px 7px;
     border-radius: 20px;
     background-color: white;
+    animation-name: adoption;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+
 }
+
 
 .adopt__cont {
     display: flex;
