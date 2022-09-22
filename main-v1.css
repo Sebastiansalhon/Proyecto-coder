@@ -202,7 +202,7 @@ color: skyblue;
 .animal__tarjeta {
     width: 40vw;
     height: 40vh;
-    background-color: rgb(174, 174, 170);
+    background-color: rgb(255, 255, 251);
     border-radius: 40px;
     display: flex;
     justify-content: center;
@@ -212,8 +212,10 @@ color: skyblue;
 }
 
 .animal__img {
-    height: 200px;
-    width: 400px;
+    height: 250px;
+    width: 500px;
+    border-radius: 50px;
+    overflow: auto;
 }
 
 
