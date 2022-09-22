@@ -11,7 +11,7 @@ a {
     background-position: 0% 100%;
     background-repeat: no-repeat;
     background-size: 0% 2px;
-    transition: background-size .3s;
+    transition: background-size .4s;
 }
 
 a:hover, a:focus {
@@ -41,16 +41,18 @@ span {
     color: black
 }
 
-img {
+/* img {
     max-width: 100%;
     max-height: 100%;
-}
+} */
 
 
 
 footer {
     background-color: #091f2f;
     position: sticky;
+    bottom: 0px;
+    width: 100%;
 }
 
 /* Keyframs */
@@ -60,9 +62,6 @@ footer {
     100% {background-color: white;}
 }
 
-@keyframes navegacion {
-    
-}
 
 /* Todos los titulos */
 .title__principal {
@@ -83,10 +82,10 @@ footer {
     justify-content: space-around;
 }
 .boton__nav{
-    font-size: 1.2rem;
+    font-size: 1.7rem;
 }
 .boton__nav :hover{
-color: red;
+color: skyblue;
 
 }
 
@@ -183,20 +182,15 @@ color: red;
 }
 
 .main__animalitos {
-    height: 95vh;
+    height: 100%;
 }
 
 .div__contenedor {
+    height: 100vh;
     display: grid;
     grid-template-columns: repeat(3, 33%);
     grid-template-rows: repeat(2, 50%);
 }
-
-.div__animal {
-    padding: 10px;
-}
-
-
 
 
 .animal {
@@ -206,19 +200,20 @@ color: red;
 }
 
 .animal__tarjeta {
-    width: auto;
+    width: 40vw;
     height: 40vh;
-    background-color: white;
+    background-color: rgb(174, 174, 170);
     border-radius: 40px;
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
     overflow: hidden;
-
 }
 
 .animal__img {
-    object-fit: contain;
+    height: 200px;
+    width: 400px;
 }
 
 
@@ -236,13 +231,6 @@ color: red;
     display: flex;
     margin-left: 10rem
 }
-
-
-
-
-
-
-
 
 
 
