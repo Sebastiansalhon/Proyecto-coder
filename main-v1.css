@@ -102,6 +102,13 @@ color: skyblue;
 }
 
 /* Index */
+
+.body__index {
+    width: 100vw;
+}
+
+
+
 .flexbox__about__us {
     display: grid;
     grid-template-columns: 50% 50%;
@@ -353,7 +360,6 @@ color: skyblue;
     animation-name: adoption;
     animation-duration: 10s;
     animation-iteration-count: infinite;
-
 }
 
 
@@ -372,14 +378,12 @@ color: skyblue;
     display: flex;
     justify-content: center;
     padding: 10px 0px;
-
 }
 
 .txt__adopcion {
     text-align: center;
     font-size: 1.5rem;
     font-family: sans-serif;
-
 }
 
 .adop__btn {
